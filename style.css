@@ -1,0 +1,30 @@
+body {
+    padding-top: 20px;
+    background-image: url("https://storage.needpix.com/rsynced_images/background-1939128_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.resume-header {
+    margin-bottom: 30px;
+}
+
+.resume-section {
+    margin-bottom: 30px;
+}
+
+.resume-section h2 {
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.custom-img {
+    max-width: 250px;
+}
+
+@media (width <=720px) {
+    .custom-img {
+        max-width: 130px;
+    }
+}
